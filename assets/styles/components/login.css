@@ -1,0 +1,11 @@
+.login{
+   display: flex;
+   justify-content: center;
+   min-height: 40vh;
+   margin: 3em 0;
+}
+
+.login .form__title{
+   font-weight: bold;
+   font-size: 1.2em;
+}

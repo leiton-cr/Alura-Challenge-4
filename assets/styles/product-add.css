@@ -1,0 +1,21 @@
+.form.product__add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.product__add .form__title{
+    align-self: flex-start;
+}
+
+.product__add .form__input{
+    max-width: 600px;
+}
+
+.product__add .form__submit{
+    max-width: 600px;
+    width: 110%;
+}

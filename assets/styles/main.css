@@ -1,0 +1,41 @@
+.main-banner {
+  height: 20em;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 41.15%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-banner__content {
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  color: white;
+}
+
+.main-banner__title {
+  font-size: 1.5em;
+}
+
+.main-banner__detail{
+    font-size: .8em;
+}
+
+
+@media (min-width: 768px) {
+    .main-banner__title{
+        font-size: 3em;
+    }
+
+    .main-banner__detail{
+        font-size: 1em;
+    }
+}

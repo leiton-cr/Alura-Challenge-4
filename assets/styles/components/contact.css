@@ -1,0 +1,44 @@
+.contact{
+    padding: 2em 0 1em 0;
+    background-color: var(--clr-secondary);
+}
+
+.contact .form__title{
+   font-size: 1.2em;
+}
+
+
+.contact__logo-group{
+    display: flex;
+    gap: .25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__logo-group * {
+    font-size: 1.5rem;
+}
+
+
+
+.contact__list{
+    text-align: center;
+}
+
+.contact__list-item{
+    margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+
+    .contact__list{
+        text-align: left;
+    }
+
+    .contact__content{
+        display: flex;
+        gap: 1.5em;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header" id="header"></header>
+
+    <main class="main">
+
+        <section class="login ">
+
+            <div class="login__content container">
+                <form class="form product__add">
+                    <h2 class="form__title"> Agregar producto </h2>
+
+                    <div class="input__group">
+                        <input class="form__input " type="text" id="image" placeholder=" ">
+                        <label class="form__label" for="image">URL de imagen</label>
+                        <p class="form__error">Error</p>
+                    </div>
+
+                    <div class="input__group">
+                        <input class="form__input error" type="text" id="category" placeholder=" ">
+                        <label class="form__label" for="category">Categoría</label>
+                        <p class="form__error">Error</p>
+                    </div>
+
+                    <div class="input__group">
+                        <input class="form__input " type="text" id="name" placeholder=" ">
+                        <label class="form__label" for="name">Nombre del producto</label>
+                        <p class="form__error">Error</p>
+                    </div>
+
+                    <div class="input__group">
+                        <input class="form__input " type="number" id="price" placeholder=" ">
+                        <label class="form__label" for="price">Precio del producto</label>
+                        <p class="form__error">Error</p>
+                    </div>
+
+                    <div class="input__group">
+                        <textarea class="form__input " id="description" placeholder=" "></textarea>
+                        <label class="form__label" for="description" cols="30" rows="10">Descripción del producto</label>
+                        <p class="form__error">Error</p>
+                    </div>
+
+                    <button type="submit" class="form__submit accented_btn btn">Agregar producto</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer" id="footer"> </footer>
+
+    <script src="templating.js" defer></script>
+
+</body>
+
+</html>

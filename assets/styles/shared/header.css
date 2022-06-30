@@ -1,0 +1,25 @@
+.header__content,
+.header__logo-group
+{
+    display: flex;
+    align-items: center;
+}
+
+.header {
+  background-color: white;
+  justify-content: center;
+}
+
+.header__content {
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header__logo-group {
+  gap: 0.25em;
+}
+
+.header__login-btn {
+  border: 1px solid var(--clr-accent);
+  color: var(--clr-accent);
+}

@@ -1,0 +1,51 @@
+:root {
+  --clr-accent: #2a7ae4;
+
+  --clr-error: #e42a2a;
+  --clr-sucess: #0ec253;
+
+  --clr-secondary:#EAF2FD;
+
+  --clr-neutral-400: rgb(102, 102, 102);
+
+  --bg-input:#f7f7f7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container {
+  width: 80%;
+  min-width: 280px;
+  margin: auto;
+}
+
+.accented {
+  color: var(--clr-accent);
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+}
+
+.accented_btn{
+  background-color: var(--clr-accent);
+  color: white;
+}
